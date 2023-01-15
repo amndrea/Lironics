@@ -1,0 +1,181 @@
+INSERT INTO SOCIO VALUES ( '0000000001', 'Fillo93');
+INSERT INTO SOCIO VALUES ( '0000000002', 'Corradini34');
+INSERT INTO SOCIO VALUES ( '0000000003', 'AndreaB93');
+INSERT INTO SOCIO VALUES ( '0000000004', 'TeresaBar17');
+INSERT INTO SOCIO VALUES ( '0000000005', 'Asiadelcu99');
+INSERT INTO SOCIO VALUES ( '0000000006', 'Danigoldo');
+INSERT INTO SOCIO VALUES ( '0000000007', 'Biunz94');
+INSERT INTO SOCIO VALUES ( '0000000008', 'Marangoni');
+INSERT INTO SOCIO VALUES ( '0000000009 ', 'DavideGorghetti');
+INSERT INTO SOCIO VALUES ( '0000000010 ', 'Giuliaroccia');
+INSERT INTO SOCIO VALUES ( '0000000011', 'AlbertoGuerzoni');
+ 
+INSERT INTO CLIENTE VALUES ('Fillo93','Ciao2343', 'Modena', 'Canaletto' ,'33', 'UDMEFR93A23F321T' , 'daodao@ciao.it', 'Filippo' ,'Neri');
+INSERT INTO CLIENTE VALUES ('Corradini34','Pescaazzurra', 'Milano', 'Navigli ','15 ', 'CCIDDN23B11O322E' , 'forzamilan@hotmail.it ', 'Davide' ,'Corradini');
+INSERT INTO CLIENTE VALUES ('AndreaB93 ','Sciranea', 'Roma', 'Tiberio','94 ', 'POASFA88E21F275T' , 'andreciao@libero.it', 'Andrea' ,'Serafini');
+INSERT INTO CLIENTE VALUES ('TeresaBar17','cgsgshoidgs', 'Modena', 'Campi','5', 'CAPAFD90F30R234G' , 'musica@gmail.com', 'Teresa' ,'Picci ');
+INSERT INTO CLIENTE VALUES ('Asiadelcu99','pisugshwd/()£&Q', 'Firenze', 'Medici','9', 'PDFSAS99E30L542I ' , 'asiucciabella@msn.it', 'Asia' ,'Cucina');
+INSERT INTO CLIENTE VALUES ('Danigoldo','Pilviaefsa', 'Napoli', 'Toledo','324 ', 'PDSAEH23P31D458V' , 'forzanapoli@aruba.it', 'Daniele' ,'Remondini');
+INSERT INTO CLIENTE VALUES ('Biunz94','Parigi2020', 'Roma', 'Cesare',' 1', 'CCCDJH03E14R984U' , 'fabiunzello@gmail.it', 'Fabio' ,'Luisi');
+INSERT INTO CLIENTE VALUES ('Marangoni','Cavallobianco', 'Bologna', 'Indipendenza',' 50', 'DOPAFS84R23I347D' , 'bolosolobolo@internet.it', 'Mattia' ,'Vescovi');
+INSERT INTO CLIENTE VALUES ('DavideGorghetti','ciaociaociao', 'Modena', 'Albareto',' 1', 'PDDSAM67E23D345F' , 'nopubblicita@msn.it', 'Davide' ,'Gorghetti');
+INSERT INTO CLIENTE VALUES ('AlbertoGuerzoni','Forzanapoli', 'Napoli', 'San Biagio dei librai','10 ', 'GRZLBR90L20A345E' , 'cavallinorampante@hotmail.it', 'Alberto' ,'Guerzoni');
+
+INSERT INTO PRODOTTO VALUES ('Ca750Refle','100', 'Fotocamera reflex',' Canon 750D','Canon', 'Fotocamere',399.95);
+INSERT INTO PRODOTTO VALUES ('Ipad2022ap','30', 'Tablet Apple anno 2022 64 giga', 'Ipad','Apple', 'Tablet',199.99);
+INSERT INTO PRODOTTO VALUES ('Tvsams100p','20', 'Televisore Samsung 100 pollici', 'Black100','Samsung', 'Televisori',299.99);
+INSERT INTO PRODOTTO VALUES ('Nik1000ref','15', 'Fotocamera digitale', 'Nikon 1000','Nikon', 'Fotocamere',99.99);
+INSERT INTO PRODOTTO VALUES ('1231231233','15', 'Lavastoviglie di ultima generazione Wirpool', 'Wirpool 123','Wirpool', 'Lavastoviglie',100);
+INSERT INTO PRODOTTO VALUES ('Gaming9999','30', 'Sedia da gaming ', 'Gamingchair','Nusacc', 'Sedie da gaming', 150 );
+INSERT INTO PRODOTTO VALUES ('Smart2gg2p','50','Smartbox per 2 persone per 2 giorni', 'Smartbox', ' Smartbox', 'Smartbox', 99);
+INSERT INTO PRODOTTO VALUES ('Flux40giri','40', 'Frullatore 40 giri al secondo imetech ', 'Flux40','Imetech', 'Frullatore',40);
+INSERT INTO PRODOTTO VALUES ('Folletcasa','10', 'Pulitore autonomo Folletto', 'Folletto10','Folletto', 'Pulizia della casa',200);
+INSERT INTO PRODOTTO VALUES ('Bigice3000','50', 'Frigorifero di classe energetica A++', 'Bigice','Wirpool', 'Frigorifero',750);
+INSERT INTO PRODOTTO VALUES ('APEXLEGEND','50', 'Chiave di attivazione videogioco online', 'Apex_legend','EA', 'Videogioco',59.99);
+ 
+INSERT INTO ORDINE VALUES('Fillo93','2022-02-12', '12:23:54', 'Modena','Canaletto', '33');
+INSERT INTO ORDINE VALUES('Fillo93','2019-04-30 ', ' 19:43:31', 'Modena','Canaletto', '33');
+INSERT INTO ORDINE VALUES('Danigoldo','2018-02-26', '15:32:34', 'Napoli','Toledo', '324 ');
+INSERT INTO ORDINE VALUES('Asiadelcu99','2021-06-30', '13:34:54', 'Firenze','Medici', '9');
+INSERT INTO ORDINE VALUES('DavideGorghetti','2013-04-06', '23:54:43', 'Modena ',' Albareto', '1');
+INSERT INTO ORDINE VALUES('Marangoni','2015-07-05 ','22:53:31 ', 'Bologna ', 'Indipendenza' ,'50' );
+INSERT INTO ORDINE VALUES('Marangoni','2016-02-22','21:05:08', 'Bologna ', 'Indipendenza ','50 ');
+INSERT INTO ORDINE VALUES('TeresaBar17','2012-03-05', '10:15:00', ' Modena','Campi', '5');
+INSERT INTO ORDINE VALUES('Biunz94','2022-11-13', '14:00:00', 'Roma ',' Cesare', '1 ');
+INSERT INTO ORDINE VALUES('Biunz94','2022-12-15', '08:34:52', 'Roma ','Cesare ', '1 ');
+ 
+
+INSERT INTO DETTAGLIO VALUES ('Fillo93','2022-02-12 ', '12:23:54 ', 'Ipad2022ap ','199.99', ' 1');
+INSERT INTO DETTAGLIO VALUES ('Fillo93','2019-04-30 ', '19:43:31 ', 'Folletcasa',' 400', '2');
+INSERT INTO DETTAGLIO VALUES ('Danigoldo','2018-02-26 ', '15:32:34 ', 'Bigice3000 ','750 ', '1 ');
+INSERT INTO DETTAGLIO VALUES ('Asiadelcu99','2021-06-30 ', ' 13:34:54', 'Bigice3000 ',' 750', ' 1');
+INSERT INTO DETTAGLIO VALUES ('DavideGorghetti',' 2013-04-06', '23:54:43', 'Smart2gg2p','198', '2');
+INSERT INTO DETTAGLIO VALUES ('Marangoni','2015-07-05 ', '22:53:31 ', 'Flux40giri','120', '3');
+INSERT INTO DETTAGLIO VALUES ('Marangoni', '2016-02-22 ', '21:05:08 ', 'Gaming9999','150', '1');
+INSERT INTO DETTAGLIO VALUES ('TeresaBar17','2012-03-05 ', '10:15:00 ', 'Tvsams100p','299.99', '1');
+INSERT INTO DETTAGLIO VALUES ('Biunz94','2022-11-13 ', '14:00:00 ', 'Nik1000ref','99.99', '1');
+INSERT INTO DETTAGLIO VALUES ('Biunz94','2022-12-15 ', '08:34:52', 'Ca750Refle ', '399.95', '1');
+INSERT INTO DETTAGLIO VALUES ('Asiadelcu99','2021-06-30 ', ' 13:34:54', 'Gaming9999','150', '1');
+INSERT INTO DETTAGLIO VALUES ('Biunz94','2022-12-15 ', '08:34:52', 'APEXLEGEND', '59.99', '1');
+
+ 
+INSERT INTO RECENSIONE VALUES ('Fillo93','Ipad2022ap', '3', 'Ottimo prodotto ',' Questo tablet va che è una meraviglia');
+INSERT INTO RECENSIONE VALUES ('Fillo93','Folletcasa', '4', 'casa pulita ',' Arriva dove gli altri non arrivano');
+INSERT INTO RECENSIONE VALUES ('Danigoldo','Bigice3000', '1', 'dimensioni ','le dimensioni non sono come quelle riportate ');
+INSERT INTO RECENSIONE VALUES ('Asiadelcu99','Bigice3000', '2', 'consumi ',' bello, ma consuma troppo');
+INSERT INTO RECENSIONE VALUES ('DavideGorghetti','Smart2gg2p', '5', 'ovunque ',' ottima varietà di scelta');
+INSERT INTO RECENSIONE VALUES ('Marangoni','Flux40giri', '2', ' rumore',' quando gira fa troppo rumore');
+INSERT INTO RECENSIONE VALUES ('Marangoni','Gaming9999', '3', 'comoda',' Ottima sedia da gaming ');
+INSERT INTO RECENSIONE VALUES ('TeresaBar17','Tvsams100p', '5', 'top ','colori perfetti');
+INSERT INTO RECENSIONE VALUES ('Biunz94','Nik1000ref', '2', 'costo ',' costro troppo elevato per questo prodotto');
+INSERT INTO RECENSIONE VALUES ('Biunz94','Ca750Refle', '1', 'ottiche ',' mancano le ottiche della stessa marca');
+ 
+INSERT INTO PUNTO_VENDITA VALUES ('00001 ','32487548423', 'Via dei pioppi 40 ', '059324232 ','store1@gmail.com ');
+INSERT INTO PUNTO_VENDITA VALUES ('00002 ','23475762932', ' via bella spesa 100', '327462322 ','store2@gmail.com');
+INSERT INTO PUNTO_VENDITA VALUES ('00003 ','23905822732', 'Via grande vista 23', '3264594232 ','store3@gmail.com');
+INSERT INTO PUNTO_VENDITA VALUES ('00004','40487385873', 'Via delle nazioni 99', '3925787545 ','store4@gmail.com');
+INSERT INTO PUNTO_VENDITA VALUES ('00005','38457354463', 'via del corso 3', '3827525433','store5@gmail.com');
+ 
+INSERT INTO PROMOZIONE VALUES ('Smart2gg2p', '00001', '3', '49.99');
+INSERT INTO PROMOZIONE VALUES ('Smart2gg2p', '00004', '6', '49.99');
+INSERT INTO PROMOZIONE VALUES ('Flux40giri', '00005', '30', '20');
+INSERT INTO PROMOZIONE VALUES ('Ipad2022ap', '00002', '25', '100');
+INSERT INTO PROMOZIONE VALUES ('Bigice3000', '00004', '16', '599.99');
+INSERT INTO PROMOZIONE VALUES ('Tvsams100p', '00003', '17', '249.99');
+INSERT INTO PROMOZIONE VALUES ('Gaming9999', '00002', '18', '139.99');
+INSERT INTO PROMOZIONE VALUES ('Tvsams100p', '00001', '20', '199.99');
+INSERT INTO PROMOZIONE VALUES ('Smart2gg2p', '00005', '11', '69.99');
+INSERT INTO PROMOZIONE VALUES ('Bigice3000', '00005', '1', '69.99');
+ 
+INSERT INTO FORNITORE VALUES ('23986745233','SDGRTG30T48F542E', 'Danithebst@gmail.com', 'Danilo','Rossi','324523432');
+INSERT INTO FORNITORE VALUES ('23985742023','DGWPET23O10P457R', 'sandruccio35@libero.it', 'Sandro ','Pertini ','345434245');
+INSERT INTO FORNITORE VALUES ('54243654321','CIOAEW30P05J458E', 'faccioridere@gmail.com', ' Aldo','Baglio ', '3243257432');
+INSERT INTO FORNITORE VALUES ('42598547268','SDOISD20U03Y435E', 'brighella89@gmail.com', ' Giacomo','Poretti ','455432345');
+INSERT INTO FORNITORE VALUES ('32598682211','PPDSAT04P04G342T', 'alfosigno@gmail.com', ' Alfonso',' Signorini','32343456');
+ 
+INSERT INTO FORNITURA VALUES ('23986745233', '2022-03-03');
+INSERT INTO FORNITURA VALUES ('23985742023', '2021-04-04');
+INSERT INTO FORNITURA VALUES ('23986745233', '2019-06-30');
+INSERT INTO FORNITURA VALUES ('23985742023', '2017-01-03');
+INSERT INTO FORNITURA VALUES ('23986745233', '2015-03-07');
+INSERT INTO FORNITURA VALUES ('54243654321', '2016-08-17');
+INSERT INTO FORNITURA VALUES ('42598547268', '2014-05-19');
+INSERT INTO FORNITURA VALUES ('42598547268', '2020-12-14');
+INSERT INTO FORNITURA VALUES ('32598682211', '2021-09-09');
+INSERT INTO FORNITURA VALUES ('32598682211', '2012-12-21');
+ 
+INSERT INTO DI VALUES ('23986745233','2022-03-03', 'Flux40giri', '23');
+INSERT INTO DI VALUES ('23985742023','2021-04-04', 'Gaming9999', '4');
+INSERT INTO DI VALUES ('23986745233','2019-06-30', 'Smart2gg2p', '52');
+INSERT INTO DI VALUES ('23985742023','2017-01-03', 'Nik1000ref', '14');
+INSERT INTO DI VALUES ('23986745233', '2015-03-07' , '1231231233', '5');
+INSERT INTO DI VALUES ('54243654321','2016-08-17', 'Ipad2022ap', '16');
+INSERT INTO DI VALUES ('42598547268','2014-05-19', 'Folletcasa', '3');
+INSERT INTO DI VALUES ('42598547268','2020-12-14', 'Bigice3000', '7');
+INSERT INTO DI VALUES ('32598682211','2021-09-09', 'Ca750Refle', '11');
+INSERT INTO DI VALUES ('32598682211','2012-12-21', 'Tvsams100p', '3');
+ 
+INSERT INTO PRESENTE_IN VALUES ('00001', 'Tvsams100p');
+INSERT INTO PRESENTE_IN VALUES ('00001', 'Ca750Refle');
+INSERT INTO PRESENTE_IN VALUES ('00005', 'Bigice3000');
+INSERT INTO PRESENTE_IN VALUES ('00003', 'Bigice3000');
+INSERT INTO PRESENTE_IN VALUES ('00001', 'Folletcasa');
+INSERT INTO PRESENTE_IN VALUES ('00003', 'Ipad2022ap');
+INSERT INTO PRESENTE_IN VALUES ('00002', '1231231233');
+INSERT INTO PRESENTE_IN VALUES ('00002', 'Smart2gg2p');
+INSERT INTO PRESENTE_IN VALUES ('00004', 'Nik1000ref');
+INSERT INTO PRESENTE_IN VALUES ('00004', 'Folletcasa');
+
+INSERT INTO ACQUISTA VALUES ('0000000004', '00004', 'Bigice3000');
+INSERT INTO ACQUISTA VALUES ('0000000006', '00002', 'Ipad2022ap');
+INSERT INTO ACQUISTA VALUES ('0000000008', '00003', 'Tvsams100p');
+INSERT INTO ACQUISTA VALUES ('0000000001', '00005', 'Smart2gg2p');
+INSERT INTO ACQUISTA VALUES ('0000000003', '00002', 'Gaming9999');
+INSERT INTO ACQUISTA VALUES ('0000000002', '00003', 'Ipad2022ap');
+INSERT INTO ACQUISTA VALUES ('0000000007', '00001', 'Ca750Refle');
+ 
+INSERT INTO CITTA VALUES ('Modena');
+INSERT INTO CITTA VALUES ('Bologna');
+INSERT INTO CITTA VALUES ('Firenze');
+INSERT INTO CITTA VALUES ('Roma');
+INSERT INTO CITTA VALUES ('Napoli');
+ 
+INSERT INTO PRESENTE VALUES ('Modena', '00001');
+INSERT INTO PRESENTE VALUES ('Bologna', '00002');
+INSERT INTO PRESENTE VALUES ('Firenze', '00003');
+INSERT INTO PRESENTE VALUES ('Roma', '00004');
+INSERT INTO PRESENTE VALUES ('Napoli', '00005');
+ 
+INSERT INTO RESPONSABILE VALUES ('000001', 'SPDFSA12P03T432P ','Alfredi@gmail.com ', 'Alfredo ','Uccello ', '000002', '3432345434');
+INSERT INTO RESPONSABILE VALUES ('000002', 'DSASDF10R06R988W ',' Willesp@gmail.com', 'William ','Esposito ','000001','234565434');
+INSERT INTO RESPONSABILE VALUES ('000003', 'PDFRTV30R12P456E','Lucaran@gmail.com ', 'Luca ',' Ranieri', '000001','05973382');
+INSERT INTO RESPONSABILE VALUES ('000004', 'GTRFBC09U12H543S',' Robbivalle@gmail.com', 'Roberto ',' Valle', '000005','432343432');
+INSERT INTO RESPONSABILE VALUES ('000005', 'LMNSDR07I19U435E','Silvietta@gmail.com ', ' Silvia','Pellacani ', '000004', '3456543456');
+ 
+INSERT INTO DIPENDENTE VALUES ('100000', 'Addetto casse', 'PLDQRT35G24H876F','Lupolucio@gmail.com ', 'Lucio ' , 'Simonini ','23434434');
+INSERT INTO DIPENDENTE VALUES ('100001', 'Costumer service', 'BVRTCV08R04P386G','Lucilot@gmail.com ', 'Lucia ' , 'Lotti ','34345654');
+INSERT INTO DIPENDENTE VALUES ('100002', 'Ordinamento scaffali ', 'CARVAD21I05V346V','Quartoequinto@gmail.com ', 'Quarto ' , ' Rossi' ,'4543454323');
+INSERT INTO DIPENDENTE VALUES ('100003', 'Pulizia ', 'VBTRMG09O31I653E','Valepep@gmail.com ', ' Valerio' , 'Peppini ','3234565456' );
+INSERT INTO DIPENDENTE VALUES ('100004', 'Guardia giurata ', 'CCCGNN97M18F257T','Carletta@gmail.com ', 'Carla ' , 'Grandi ','687546327');
+INSERT INTO DIPENDENTE VALUES ('100005', 'Fattorino', 'BLDBTR24P52S123S',' Aliventu@gmail.com', ' Alice' , ' Venturi','345834956');
+INSERT INTO DIPENDENTE VALUES ('100006', 'Cassiere', 'CTVREC04T05T928Z','Alleselmi@gmail.com ', 'Alessia ' , 'Selmi ', '3748393542');
+INSERT INTO DIPENDENTE VALUES ('100007', 'Sindacalista', 'NBVRTC09E05P243T','Milbarzo@gmail.com', 'Milena ' , 'Barozzi ','3425843586');
+INSERT INTO DIPENDENTE VALUES ('100008', 'Infermiere', 'MPRVET04P06M542C',' Simoall@gmail.com', ' Simone' , ' Allegri','47582369');
+INSERT INTO DIPENDENTE VALUES ('100009', 'Tecnico informatico', 'CRVTPC11L10C325T',' Maurisan@gmail.com', 'Maurizio ',' Santini','245235654' );
+ 
+INSERT INTO RESPONSABILE_DI VALUES ('000001', '00001');
+INSERT INTO RESPONSABILE_DI VALUES ('000002', '00002');
+INSERT INTO RESPONSABILE_DI VALUES ('000003', '00003 ');
+INSERT INTO RESPONSABILE_DI VALUES ('000004', '00004');
+INSERT INTO RESPONSABILE_DI VALUES ('000005', '00005');
+
+INSERT INTO LAVORA VALUES ('100000', '00001');
+INSERT INTO LAVORA VALUES ('100001', '00002');
+INSERT INTO LAVORA VALUES ('100002', '00002');
+INSERT INTO LAVORA VALUES ('100003', '00003');
+INSERT INTO LAVORA VALUES ('100004', '00004');
+INSERT INTO LAVORA VALUES ('100005', '00005');
+INSERT INTO LAVORA VALUES ('100006', '00005');
+INSERT INTO LAVORA VALUES ('100007', '00004');
+INSERT INTO LAVORA VALUES ('100008', '00002');
+INSERT INTO LAVORA VALUES ('100009', '00001');
